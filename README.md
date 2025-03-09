@@ -73,16 +73,18 @@ SPIRITX DOMINATORS_02 is a comprehensive sports analytics and communication plat
         pip install -r requirements.txt
         ```
 
-    * **React Frontend:**
+    * **React Frontend: Navigate to the frontend-react**
         ```bash
         cd frontend-react
         npm install
+        npm install react react-dom react-router-dom @mui/material @mui/x-data-grid @emotion/react @emotion/styled axios framer-motion uuid
         ```
 
-    * **Admin Panel Backend:**
+    * **Admin Panel Backend: Navigate to the admin-panel-backend**
         ```bash
         cd ../admin-panel-backend
         npm install
+        npm install express cors firebase-admin
         ```
 
 5.  **Run the application:**
